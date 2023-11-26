@@ -4,5 +4,17 @@
         "enabled": true,
         "type": "css",
         "src": "/styles/dark.css"
+    },
+    {
+        "name": "Dev Tools JS",
+        "enabled": true,
+        "type": "js",
+        "src": "/scripts/dev.js"
+    },
+    {
+        "name": "Dev Tools CSS",
+        "enabled": true,
+        "type": "css",
+        "src": "/styles/dev.css"
     }
 ]

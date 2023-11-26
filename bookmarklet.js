@@ -1,11 +1,1 @@
-const response = await fetch('127.0.0.1:6569/list.json');
-const list = await response.json();
-
-list.forEach(s => {
-    if (s.type === "css") {
-        var n = document.createElement("link");
-        n.rel = "stylesheet";
-        n.href = s.src;
-        document.head.appendChild(n);
-    }
-});
+(async () =>{var r;r=await fetch("https://jumpingtj.github.io/scratch-scripts/src/list.json");var l;l=await r.json();l.forEach(s=>{if(s.type==="css"){var n=document.createElement("link");n.rel="stylesheet";n.href="https://jumpingtj.github.io/scratch-scripts/src"+s.src;document.head.appendChild(n);}else if(s.type==="js"){var n=document.createElement("script");n.src="https://jumpingtj.github.io/scratch-scripts/src"+s.src;document.head.appendChild(n);}});})();

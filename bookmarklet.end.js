@@ -1,4 +1,1 @@
-var s = document.createElement("script");
-s.setAttribute("type", "module");
-s.innerHTML = "";
-document.head.appendChild(s);
+%28async%20%28%29%20%3D%3E%7Bvar%20r%3Br%3Dawait%20fetch%28%22https%3A%2F%2Fjumpingtj.github.io%2Fscratch-scripts%2Fsrc%2Flist.json%22%29%3Bvar%20l%3Bl%3Dawait%20r.json%28%29%3Bl.forEach%28s%3D%3E%7Bif%28s.type%3D%3D%3D%22css%22%29%7Bvar%20n%3Ddocument.createElement%28%22link%22%29%3Bn.rel%3D%22stylesheet%22%3Bn.href%3D%22https%3A%2F%2Fjumpingtj.github.io%2Fscratch-scripts%2Fsrc%22%2Bs.src%3Bdocument.head.appendChild%28n%29%3B%7Delse%20if%28s.type%3D%3D%3D%22js%22%29%7Bvar%20n%3Ddocument.createElement%28%22script%22%29%3Bn.src%3D%22https%3A%2F%2Fjumpingtj.github.io%2Fscratch-scripts%2Fsrc%22%2Bs.src%3Bdocument.head.appendChild%28n%29%3B%7D%7D%29%3B%7D%29%28%29%3B
