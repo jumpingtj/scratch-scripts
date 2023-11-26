@@ -16,5 +16,11 @@
         "enabled": true,
         "type": "css",
         "src": "/styles/dev.css"
+    },
+    {
+        "name": "Discuss Button",
+        "enabled": true,
+        "type": "js",
+        "src": "/scripts/discuss.js"
     }
 ]
