@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Dark Blue Theme",
+        "enabled": true,
+        "type": "css",
+        "src": "/styles/dark.css"
+    }
+]
